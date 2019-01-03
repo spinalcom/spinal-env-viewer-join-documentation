@@ -1,0 +1,18 @@
+{
+  "name": "spinal-env-viewer-join-documentation",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  "spinal-env-viewer-plugin-documentation-service": "https://github.com/spinalcom/spinal-env-viewer-plugin-documentation-service.git",
+  "spinal-env-viewer-plugin-documentation": "https://github.com/spinalcom/spinal-env-viewer-plugin-documentation.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run create_viewer_env",
+    "create_viewer_env": "create_viewer_env -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
